@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(tree:*)",
-      "Bash(npm run lint)"
+      "Bash(npm run lint)",
+      "Bash(npx shadcn@latest init -d)"
     ]
   }
 }
