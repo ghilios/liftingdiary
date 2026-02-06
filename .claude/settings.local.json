@@ -3,7 +3,9 @@
     "allow": [
       "Bash(tree:*)",
       "Bash(npm run lint)",
-      "Bash(npx shadcn@latest init -d)"
+      "Bash(npx shadcn@latest init -d)",
+      "mcp__Neon__describe_table_schema",
+      "mcp__Neon__run_sql"
     ]
   }
 }
