@@ -10,7 +10,9 @@
       "Bash(git -C \"C:\\\\Users\\\\ghili\\\\src\\\\claude_class\\\\liftingdiarycourse\" show cf3bde8 --stat)",
       "Bash(npx shadcn@latest add:*)",
       "Bash(npm install:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "WebSearch",
+      "WebFetch(domain:clerk.com)"
     ]
   }
 }

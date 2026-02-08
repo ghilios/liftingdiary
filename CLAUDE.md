@@ -4,9 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Important: Documentation First
 
-**ALWAYS refer to the relevant documentation files in the `/docs` directory before generating any code.** The docs contain project-specific patterns, conventions, and implementation details that must be followed.
+**ALWAYS refer to the relevant documentation files in the `/docs` directory before generating any code.** The docs contain project-specific patterns, conventions, and implementation details that must be followed:
 
 - /docs/ui.md
+- /docs/data-fetching.md
+- /docs/auth.md
 
 ## Project Overview
 
