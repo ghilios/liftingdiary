@@ -5,7 +5,12 @@
       "Bash(npm run lint)",
       "Bash(npx shadcn@latest init -d)",
       "mcp__Neon__describe_table_schema",
-      "mcp__Neon__run_sql"
+      "mcp__Neon__run_sql",
+      "Bash(git -C \"C:\\\\Users\\\\ghili\\\\src\\\\claude_class\\\\liftingdiarycourse\" log --oneline)",
+      "Bash(git -C \"C:\\\\Users\\\\ghili\\\\src\\\\claude_class\\\\liftingdiarycourse\" show cf3bde8 --stat)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }

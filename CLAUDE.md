@@ -2,6 +2,12 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Important: Documentation First
+
+**ALWAYS refer to the relevant documentation files in the `/docs` directory before generating any code.** The docs contain project-specific patterns, conventions, and implementation details that must be followed.
+
+- /docs/ui.md
+
 ## Project Overview
 
 Lifting Diary Course - A Next.js 16 application with React 19, TypeScript, and Tailwind CSS v4.
