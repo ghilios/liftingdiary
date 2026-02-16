@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Bubblegum_Sans } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import {
   ClerkProvider,
   SignInButton,
@@ -20,12 +20,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const bubblegumSans = Bubblegum_Sans({
-  variable: "--font-bubblegum",
-  weight: "400",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Lifting Diary",
   description: "Track your lifting progress",
@@ -40,7 +34,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} ${bubblegumSans.variable} antialiased`}
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <header className="flex justify-end gap-4 p-4">
             <SignedOut>
