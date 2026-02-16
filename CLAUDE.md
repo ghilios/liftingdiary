@@ -6,10 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **ALWAYS refer to the relevant documentation files in the `/docs` directory before generating any code.** The docs contain project-specific patterns, conventions, and implementation details that must be followed:
 
-- /docs/ui.md
-- /docs/data-fetching.md
 - /docs/auth.md
+- /docs/data-fetching.md
 - /docs/data-mutations.md
+- /docs/routing.md
+- /docs/ui.md
 
 ## Project Overview
 
